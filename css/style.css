@@ -36,6 +36,19 @@ img {
   width: 100%;
 }
 
+.btn-1 {
+  margin-left: 40px;
+  width: 1050px;
+  height: 3rem;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  background-color: #111;
+  border: none;
+  border-radius: 5px;
+}
+
 /* Navbar */
 
 .navbar {
@@ -52,22 +65,39 @@ img {
   padding: 0 30px;
 }
 
-.navbar a {
+.navbar-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #111;
+  color: wheat;
+  opacity: 1;
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  padding: 0 30px;
+}
+
+.navbar a,
+.navbar-1 a {
   color: wheat;
   padding: 10px 20px;
   margin: 0 5px;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.navbar-1 a:hover {
   border-bottom: #f34242 2px solid;
   color: white;
 }
 
-.navbar ul {
+.navbar ul,
+.navbar-1 ul {
   display: flex;
 }
 
-.navbar .logo {
+.navbar .logo,
+.navbar-1 .logo {
   font-weight: 400;
 }
 
@@ -157,6 +187,54 @@ img {
   justify-content: center;
   align-items: center;
   margin-top: 300px;
+}
+
+.hero-1 #contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 210px;
+  background-color: #333;
+}
+
+.hero-1 #contact-info .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  height: 200px;
+}
+
+/* Expense Form */
+
+.form-control {
+  height: 100px;
+  width: 1100px;
+
+  padding: 20px 40px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.form-control label {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #ddd;
+  margin-top: 8px;
+  width: 300px;
+}
+
+.form-control input {
+  height: 3rem;
+  width: 100%;
+  border: none;
+  background-color: #ddd;
+  border-radius: 30px;
+  padding-left: 10px;
+  color: black;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {

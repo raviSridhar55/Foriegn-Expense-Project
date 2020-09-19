@@ -20,14 +20,15 @@
   border-radius: 5px;
 }
 
-.btn:hover {
+.btn:hover,
+.btn-1:hover {
   opacity: 0.7;
   color: white;
 }
 
 .btn-primary,
 .bg-primary {
-  background: limegreen;
+  background: #f34242;
   color: wheat;
 }
 .btn-secondary,

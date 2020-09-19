@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="hero-1" style="background-color: #222;">
+      <div id="navbar" class="navbar-1">
+        <h1 class="logo">
+          <span class="text-primary">
+            <i class="fas fa-book-open"></i> Foreign</span
+          >Expense
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="icon">Home</a></li>
+            <li><a href="aboutus.html" class="icon">About</a></li>
+            <li><a href="credits.html" class="icon">Credits</a></li>
+            <li><a href="login.html">Log in</a></li>
+            <li><a href="signup.html">Sign up</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- About US -->
+      <h1 style="text-align: center; font-size: 3rem; font-weight: bold;">Find your expenses here</h1>
+      <form id="form">
+        <div class="form-control">
+            <label for="country" style="padding-right: 20px;">Country:</label>
+            <input type="text" id="country" placeholder="Enter Country" />
+          </div>
+        <div class="form-control">
+            <label for="room" style="padding-right: 20px;">Residence:</label>
+            <select name="room" id="room" style="width: 100%; background-color: #ddd; border-radius: 30px; border: none;padding: 0 15px;">
+                <option value="none">None</option>
+                <option value="hostel">Dorm</option>
+                <option value="flat">Flat</option>
+            </select>
+          </div>
+        <div class="form-control">
+            <label for="country" style="padding-right: 20px">Preference:</label>
+            <select name="room" id="room" style="width: 100%; background-color: #ddd; border-radius: 30px; border: none;padding: 0 15px;">
+                <option value="none">Food Preference</option>
+                <option value="hostel">Vegetarian</option>
+                <option value="flat">Non Vegetarian</option>
+            </select>
+          </div>
+          <div class="form-control">
+            <label for="expenses" style="padding-right: 20px;">Expenses:</label>
+            <input type="text" id="expense" placeholder="Estimated Expenses" />
+          </div>
+          <button class="btn-1">Submit</button>
+      </form>
+      </section>
+
+  
+    </header>
+
+    <footer class="footer bg-dark">
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>Copyrights &copy; 2020 ExpenseTracker</p>
+    </footer>
+  </body>
 </html>
