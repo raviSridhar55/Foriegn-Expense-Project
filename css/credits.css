@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: wheat;
+}
+
+li {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.section {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.section-1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-1 h1 {
+  font-size: 8rem;
+  font-family: "Grenze Gotisch", cursive;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: #f34242 1px solid;
+  height: 40px;
+  background-color: #f34242;
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
+}

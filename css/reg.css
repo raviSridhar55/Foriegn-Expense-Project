@@ -3,7 +3,7 @@
 }
 
 body {
-  background: cornsilk;
+  background: #111;
   font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
@@ -13,10 +13,11 @@ body {
 }
 
 .container {
-  background-color: wheat;
+  background-color: #666;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   width: 400px;
+  color: #fff;
 }
 
 a {
@@ -46,7 +47,7 @@ i {
 }
 
 .form-control label {
-  color: #666;
+  color: #ffffaa;
   display: block;
   margin-bottom: 5px;
 }
@@ -87,15 +88,21 @@ i {
 
 .form button {
   cursor: pointer;
-  background-color: #566670;
-  border: 2px solid #566670;
+  background-color: #ffffee;
+  border: 2px solid #ffffee;
   border-radius: 4px;
-  color: #ffffee;
+  color: #222;
   display: inline-block;
   font-size: 16px;
   padding: 10px;
   margin-top: 20px;
   width: 100%;
+}
+
+.form button:hover {
+  background-color: #f34242;
+  border: #f34242 2px solid;
+  color: #ffffaa;
 }
 
 .form .log {
@@ -116,4 +123,3 @@ i {
 .login {
   margin-bottom: 20px;
 }
-
