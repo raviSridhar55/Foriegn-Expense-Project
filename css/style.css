@@ -144,6 +144,21 @@ img {
   margin-right: 20px;
 }
 
+.hero-1 {
+  background: wheat;
+  height: 100vh;
+  position: relative;
+  color: #f34242;
+}
+
+.hero-1 .about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
